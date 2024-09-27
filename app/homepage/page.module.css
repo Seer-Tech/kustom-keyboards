@@ -1,0 +1,710 @@
+/* Font Imports */
+@font-face {
+  font-family: Arial;
+  src: url(../../assets/fonts/ARIAL.TTF) format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Arial;
+  src: url(../../assets/fonts/ArialMdm.ttf) format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Arial;
+  src: url(../../assets/fonts/ARIALBD.TTF) format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Stella;
+  src: url(../../assets/fonts/Stella\ Demo.ttf) format('opentype');
+  font-weight: 400;
+}
+
+.background {
+  background: url(../../assets/images/hero-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 1024px;
+}
+
+.controlClicked {
+  color: #FFF;
+  background-color: #000;
+}
+
+/* Controls Container Start */
+
+#controls {
+  /* max-width: 885px; */
+  /* margin: auto; */
+}
+
+.controlSize {
+  border-radius: 5px;
+  /* width: 33.87% !important;  */
+  background-color: #d9d9d94d;
+}
+
+.controlSound {
+  border-radius: 5px;
+  /* width: 45% !important;  */
+  height: "80px";
+  background-color: rgba(217, 217, 217, 0.30);
+}
+
+.purchaseButton {
+  color: #fff;
+  font: Arial, 'sans-serif';
+  font-size: 1.3em;
+  background-color: #1B2233;
+  border-radius: 0 0 5px 0;
+  height: 100%;
+  margin: 0; 
+  padding: 0;
+  border: none;
+}
+
+.modal {
+  z-index: 1050 !important; /* or higher if needed */
+}
+
+
+.controlPurchase {
+  width: 20% !important;
+}
+
+.controlPurchaseTest {
+  background-color: #000;
+  width: 25% !important;
+  background-color: transparent;
+  height: 80px;
+  border: 1px #A6A6A6 solid;
+  border-radius: 5px;
+}
+
+.controlPurchaseTextTest {
+  color: #A6A6A6;
+  font-family: Arial, sans-serif;
+  font-size: 1.4vw;
+  font-weight: bold;
+}
+
+
+/* Controls Container End */
+
+/* Controls Text Start */
+
+.sizeText, .sizeClicked, .soundText, .soundClicked, .purchaseText {
+  color: #A6A6A6;
+  font-family: Arial, sans-serif;
+  font-size: 1.2vw;
+  font-weight: bold;
+  background-color: #fff;
+  border: 1px rgb(0 0 0 / 20%) solid;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px 1px rgb(0 0 0 / 25%);
+  /* box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%); */
+}
+
+.sizeClicked {
+  width: 40%;
+  color: #FFF;
+  background-color: #1B2233;
+  margin-right: 5px;
+  border: none;
+}
+
+.soundClicked {
+  width: 30%;
+  color: #FFF;
+  background-color: #1B2233;
+  margin-right: 5px;
+  border: none;
+}
+
+.sizeText {
+  width: 95%;
+  margin-right: 5px;
+}
+
+.soundText {
+  width: 30%;
+  margin-right: 5px;
+}
+
+.purchaseText {
+  width: auto;
+  height: 80px;
+  background-color: #000;
+  color: #FFF;
+}
+
+/* Controls Text End */
+
+
+
+.desktopColourBlocks {
+  display: block;
+}
+
+.mobileColourBlocks {
+  display: none;
+}
+
+.fontOs {
+  font-family: 'Arial', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+/* navbar section */
+.navbarSection {
+  padding-top: 0px;
+  font-family: 'Arial', sans-serif;
+  font-size: 17px;
+}
+
+.navbarLinks {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+}
+
+/* Title Section - Start*/
+.titleSection {
+  padding: 20px 0px 0px 0px;
+}
+
+  .titleTitleText {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    font-size: 75px;
+    letter-spacing: 5px;
+    line-height: 80%;
+    font-weight: 400;
+  }
+
+  .titleSubText {
+    font-family: Arial, sans-serif;
+    /* font-family: 'Arial', sans-serif; */
+    color: #000;
+    font-size: 18.5px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .contactUsButton {
+    background-color: #1B2233;
+    border: none;
+    color: rgba(255, 255, 255 ,1);
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    margin-top: 7px;
+    border-radius: 5px;
+    width: 144px;
+    height: 29px;
+    /* margin-right: 15px; */
+    box-shadow: 0px 0px 10px #000000;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+
+  .contactUsButton:hover {
+    background-color: #1B2233;
+    transition: all 1s;
+  }
+
+  .viewServicesButton {
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    border: none;
+    color: #000;
+    background: none;
+    margin-left: 10px;
+  }
+
+  .svg {
+    mask-type: alpha;
+  }
+
+
+/* Title Section - End */
+
+/* Section 1, Forging Connections, One Weld at a Time - Start */
+
+.inputStyle {
+  border:none;
+  background-color: #fff;
+  border: 1px solid #A6A6A6;
+  border-radius: 5px;
+  box-shadow: inset 1px 2px 2px rgb(0 0 0 / 10%);
+  text-indent: 10px;
+  width: 245px;
+  height: 37px;
+  margin-bottom: 20px;
+}
+
+.inputStyle::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #A6A6A6;
+  font-family: 'Arial', sans-serif;
+  font-size: 12;
+}
+.inputStyle:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    #A6A6A6;
+ font-family: 'Arial', sans-serif;
+ font-size: 12;
+ opacity:  1;
+}
+.inputStyle::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    #A6A6A6;
+ font-family: 'Arial', sans-serif;
+ font-size: 12;
+ opacity:  1;
+}
+.inputStyle:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:    #A6A6A6;
+ font-family: 'Arial', sans-serif;
+ font-size: 12;
+}
+.inputStyle::-ms-input-placeholder { /* Microsoft Edge */
+ color:    #A6A6A6;
+ font-family: 'Arial', sans-serif;
+ font-size: 12;
+}
+
+.inputStyle::placeholder { /* Most modern browsers support this now. */
+ color:    #A6A6A6;
+ font-family: 'Arial', sans-serif;
+ -webkit-text-stroke: 0.2px #A6A6A6;
+ font-size: 12;
+}
+
+#sizeMessage {
+  display: none;
+}
+
+.forgeSection {
+  margin: 50px;
+}
+
+.forgeTitle {
+  font-family: 'Arial', sans-serif;
+  font-size: 80px;
+  line-height: 150%;
+  color: #000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  stroke: 10px solid black;
+}
+
+.forgeSubTitle {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #909090;
+  padding-bottom: 45px;
+}
+
+.forgeBoxTitle {
+  font-family: 'Arial', sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  color: #1A1A1A;
+  opacity: 65%;
+}
+
+.forgeBoxText {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: #818181;
+}
+
+.forgeSecondary {
+  margin-top: 60px;
+}
+
+.forgeImage {
+  margin-left: 50px;
+}
+
+.forgeEachImage {
+  border-radius: 50%;
+}
+/* Section 1, Forging Connections, One Weld at a Time - End */
+
+/* Section 2, Our Services - Start */
+
+.ourServicesContainer {
+  background-color: #1A1A1A;
+  padding: 50px 0px 50px 0px;
+}
+
+.ourServicesTitle {
+  font-family: 'Arial', sans-serif;
+  font-size: 40px;
+  letter-spacing: 5%;
+  color: rgba(255,255,255,1);
+  text-align: center;
+}
+
+.ourServicesSubTitle {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #8A8A8A;
+  text-align: center;
+}
+
+.serviceImageTitle {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: bold;
+  padding-top: 15px;
+  color: rgba(255, 255, 255 ,1);
+}
+
+.includeTitle {
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+  line-height: 150%;
+  letter-spacing: 20%;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.includeText {
+  font-family: 'Arial', sans-serif;
+  font-size: 19px;
+  line-height: 210%;
+  color: rgba(255,255,255,0.8);
+}
+
+/* Section 2, Our Services - End */
+
+/* Section 3, Contact Us - Start */
+
+.contactUsSection {
+  margin: 125px;
+  /* font-family: 'Arial', sans-serif; */
+}
+
+  .contactTitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #2E5D6C;
+  }
+
+  .contactSubTitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    color: #2E2E2E;
+    margin-bottom: 30px;
+  }
+
+  .submitButton {
+    background-color: #2E5D6C;
+    border: none;
+    color: rgba(255, 255, 255 ,1);
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 15px;
+  }
+
+  .submitButtonSent {
+    background-color: #2E5D6C;
+    border: none;
+    color: rgb(94, 94, 94);
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    width: 105px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 15px;
+  }
+
+.formSection2 {
+  margin-left: 100px;
+}
+
+
+  .contactDetailTitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    line-height: 180%;
+    color: #1A1A1A;
+  }
+
+  .contactDetailText {
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    color: #3F3F3F;
+    line-height: 150%;
+  }
+
+
+.contactInformation {
+  margin-top: 75px;
+}
+
+  .companyContactTitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #358AD8;
+    font-weight: 100;
+  }
+
+  .companyContactDetail {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #636363;
+  }
+
+/* Section 3, Contact Us - End */
+
+/* Section 4, Partners - Start */
+
+.partnerSection {
+  background-color: #B1B1B1;
+  stroke: #000000;
+}
+
+.trustedText {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #505050;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.partnerLogo {
+  margin-left: 30px;
+}
+/* Section 4, Partners - End */
+
+/* Section 5, Footer - Start */
+
+.footerSection {
+  background-color: #1B2233;
+  font-family: 'Arial', sans-serif;
+  padding: 15px 0px 15px 0px;
+}
+
+  .approvedIndustriesText {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .cr {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+  }
+
+  .crs {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    opacity: 65%;
+  }
+
+  .hrl {
+    border: 0.5px solid #ffffff;
+  }
+  .tnc {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+/* Section 5, Footer - End */
+
+
+
+/* animation */
+.hidden {
+  opacity: 0;
+  transition: allz;
+}
+
+@media screen and (max-width: 880px) {
+  #keyboard, #controls {
+    display: none;
+  }
+
+  #keyboard {
+    display: none;
+  }
+
+  #sizeMessage {
+    display: block;
+  }
+}
+
+
+
+@media screen and (min-width:2000px) {
+  .purchaseTextView {
+    font-size: 21px !important;
+  }
+
+  .soundText {
+    font-size: 21px !important; 
+  }
+
+  .soundClicked {
+    font-size: 21px !important;
+  }
+
+  .sizeText {
+    font-size: 21px !important;
+  }
+}
+
+@media screen and (max-width:1000px) {
+
+  .inputStyle {
+    margin-bottom: 10px;
+  }
+
+    .mobileNav {
+      /* min-width: 100%;
+      min-height: 100%; */
+    }
+  .desktopNav {
+    display: none;
+  }
+
+  .background {
+    background-image: url(../../assets/images/mobileBg-2.png);
+  }
+
+  .titleSection {
+    padding: 75px 0px 0px 0px;
+    margin: 0;
+  }
+
+  .titleTitleText {
+    font-family: 'Arial', sans-serif;
+    color: #2E5D6C;
+    font-size: 55.5px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .contactUsButton {
+    margin: auto;
+    display: block !important;
+    text-decoration: underline black !important; /* Remove underline */
+    color: white !important; /* Inherit text color */
+    width: 80%;
+    margin: auto
+  }
+
+  .contactUsButton:hover {
+    margin: auto;
+    display: block !important;
+    text-decoration: underline black !important; /* Remove underline */
+    color: white !important; /* Inherit text color */
+    background-color: #3e8197;
+    transition: all 1s;
+  }
+
+  .viewServicesButton {
+    width: 90%;
+  }
+
+  .forgeImage {
+    margin: 25px 0px 0px 0px;
+    width: 100%;
+    height: 450px;
+  }
+
+  .contactUsSection {
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .formSection1 {
+    margin-bottom: 25px;
+  }
+
+  .formSection2 {
+    margin: 25px 0px 40px 0px;
+    text-align: center;
+  }
+
+  .contactInformation {
+    margin: 0px 15px 75px 15px;
+  }
+
+  .companyContactTitle {
+    font-size: 18px;
+    /* margin-top: -15px; */
+  }
+
+  .companyContactDetail {
+    font-size: 18px;
+    /* padding-bottom: 25px; */
+  }
+
+  .trustedText {
+    text-align: center;
+  }
+
+  .partnerLogo {
+    margin: 0px 0px 0px 5px;
+  }
+
+  .approvedIndustriesText {
+    margin-bottom: -10px;
+  }
+
+  /* .topLogo {
+    width: 69px;
+    height: 69px;
+  } */
+
+  .titleSection {
+    margin: 0;
+    padding: 30px 0px 0px 0px;
+  }
+
+  .titleTitleText {
+    font-size: 65px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    text-align: start;
+  }
+
+  .titleSubText {
+    font-family: Arial;
+    max-width: 90%;
+    font-size: 16px;
+    margin: 20px 0px 30px 20px;
+    text-align: center;
+  }
+
+  .forgeImage {
+    height: 350px;
+  }
+
+  #svgKeyboard {
+    width: 1000px;
+  }
+}
