@@ -13,13 +13,27 @@ export default function useWindowDimensions() {
     };
   }
 
+  
+
   const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
 
   useEffect(() => {
     if (hasWindow) {
-      function handleResize() {
+
+      const getWindowDimensions = () => {
+        const width = hasWindow ? window.innerWidth : null;
+        const height = hasWindow ? window.innerHeight : null;
+        return {
+          width,
+          height,
+        };
+      }
+
+      const handleResize = () => {
         setWindowDimensions(getWindowDimensions());
       }
+
+      handleResize();
 
       window.addEventListener('resize', handleResize);
       return () => window.removeEventListener('resize', handleResize);

@@ -9,33 +9,17 @@ import logoW from '../../assets/images/l_w.png'
 
 // Vectors
 import titleImage from '../../assets/images/sample/keyboard/title-image.png'
-
-import vector from '../../assets/images/Vector_w.png'
 import serviceArrow from '../../assets/images/sample/keyboard/service-arrow.png'
-import number1 from '../../assets/images/embark/01img.png'
-import number2 from '../../assets/images/embark/02img.png'
-import number3 from '../../assets/images/embark/03img.png'
 
 import purchaseArrow from '../../assets/images/sample/keyboard/purchaseArrrow.png'
-import purchaseArrowBlack from '../../assets/images/sample/keyboard/purchaseArrrow.png'
-
-import contactUsText from '../../assets/images/sample/keyboard/Contact Us-text.png'
 import contactUsText2 from '../../assets/images/sample/keyboard/Contact Us-text-2.png'
 
 
-import purchaseButton from '../../assets/images/sample/keyboard/Button - go to checkout.png'
-
-import forgeCombined from '../../assets/images/Rectangle 58.png'
-
 // Footer Image
-import { ChangeEvent, SetStateAction, useEffect, useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import { useOnScreen } from './../isOnScreen'
 import Link from 'next/link'
-import { Imag, string } from '@tensorflow/tfjs-node'
 import useWindowDimensions from './windows'
-import PurchaseButton from './controls/purchaseButton'
-
-import buyButton from '../../assets/images/sample/keyboard/purchase-button.png'
 
 // Home Page
 export default function HomePage() {
@@ -72,7 +56,7 @@ export default function HomePage() {
     }
   }
 
-  const soundChange = (newSound: String) => {
+  const soundChange = (newSound: any) => {
     setSound(newSound);
     start(newSound);
   }
