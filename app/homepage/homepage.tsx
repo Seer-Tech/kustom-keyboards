@@ -10564,7 +10564,7 @@ export default function HomePage() {
             <div id='contactUs'className='row justify-content-center' style={{background: 'rgb(217 217 217 / 0.1)', borderRadius: '5px', paddingBottom: '20px'}}>
                   {/* <p className={styles.forgeTitle}>Contact Us</p> */}
                   <div>
-                  <Image src={contactUsText2} alt={'contact text'} width={369} height={97} style={{marginBottom: '20px', width: '90%', height: '100%', maxWidth: '369px', maxHeight: '97px'}}/>
+                  <Image src={contactUsText2} alt={'contact text'} width={369} height={97} style={{marginBottom: '20px', width: '100%', height: '90%', maxWidth: '369px', maxHeight: '97px'}}/>
 
                   </div>
                     <div className='col-lg-3'>
